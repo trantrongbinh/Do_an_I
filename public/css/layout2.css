@@ -1,0 +1,27 @@
+body{
+  font-family:'Lobster', Times New Romam;
+  background-image:url('http://4.bp.blogspot.com/-Ad5Od60JUaU/U2B2lTtsTEI/AAAAAAAABSg/YYjoaBsapng/s1600/Hinhnendl.com---Hinh-nen-khong-gian+(6).jpg');
+  background-position:center;
+}
+img{
+  text-family: center;
+  background-color:black;
+  border-radius:25px;
+}
+h1{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color:White;
+  font-family:"Times New Roman";
+  font-style:italic;
+  font-size: 50px;
+  }
+h2{
+  text-align: center;
+  margin-bottom: 50px;
+  color:yellow;
+  font-family:"Times New Roman";
+  font-style:italic;
+  font-size: 30px;
+}

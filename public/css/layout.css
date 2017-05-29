@@ -1,0 +1,24 @@
+body{
+  font-family:'Lobster', Times New Roman;
+  background-image:url('http://data.sinhvienit.net/2013/T08/img/SinhVienIT.Net---resized-anh-nen-day-thien-ha-5.jpg');
+  background-position:center;
+  /*background-repeat:no-repeat;*/
+  background-repeat:repeat;
+}
+img{
+  text-family: center;
+  background-color:black;
+  border-radius:25px;
+}
+#noidung{text-align: center;}
+.mottruyen img{
+  width: 290px;
+  text-align: center;
+  height:350px;
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}

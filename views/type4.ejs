@@ -1,0 +1,17 @@
+<html>
+<head><title>Trang Chủ</title></head>
+<link rel="stylesheet" type="text/css" href="css/layout.css">
+<body>
+    <div id="noidung">
+    <% var index = Math.floor(Math.random() * mang.length);
+    console.log(mang[index]); %>
+        <div class="mottruyen">
+        <button class="btn btn-default" type="submit"><a id="new" href="./truyencuoidangian">New Story</a></button>
+        <img width = "300px" height="200px" src="http://file.chiase360.com/hinh/2014/4/truyen-cuoi-dan-gian-7.jpg" />
+        <div style="color :yellow; font-family:Times New Roman; font-size: 50px; margin-left: 25%; margin-top: 60px"><%= mang[index].name %></div>
+        <div style="color :white; font-family:Times New Roman; font-size: 30px; margin-left: 35%; margin-top: 20px; margin-bottom:10%; margin-right: 7%"><%= mang[index].mota %></div>
+    </div>
+
+</div>
+</body>
+</html>
